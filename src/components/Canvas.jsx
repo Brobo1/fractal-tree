@@ -1,4 +1,4 @@
-import React, {
+import {
 	useRef,
 	useEffect
 } from 'react';
@@ -33,7 +33,7 @@ function FractalTree() {
 			let num = 0.90 + Math.random() * (1.0 - 0.90);
 			draw(0, -len, len * (0.85*num), angle + (5*num));
 			draw(0, -len, len * (0.85*num), angle - (5*num));
-			+
+			
 			ctx.restore();
 		}
 		
